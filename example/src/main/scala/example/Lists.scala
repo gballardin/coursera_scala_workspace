@@ -24,10 +24,12 @@ object Lists {
     * @return The sum of all elements in `xs`
     */
   def sum(xs: List[Int]): Int = {
-    if (xs.length == 1) xs.head
-    else xs.head + sum(xs.tail)
+    xs.length match {
+      case 0 => 0
+      case 1 => xs.head
+      case _ => xs.head + sum(xs.tail)
+    }
   }
-
 
   /**
     * This method returns the largest element in a list of integers. If the
@@ -44,6 +46,7 @@ object Lists {
     */
   def max(xs: List[Int]): Int = {
     xs.length match {
+      case 0 => 0
       case 1 => xs.head
       case 2 => {
         if (xs(0) > xs(1)) xs(0)
