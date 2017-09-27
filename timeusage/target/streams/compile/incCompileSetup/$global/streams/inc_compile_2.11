@@ -1,0 +1,227 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/gballardin/coursera_scala_workspace/timeusage/target/scala-2.11/classes
+compile options:
+1 items
+0 -> -deprecation
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+9 items
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /Users/gballardin/coursera_scala_workspace/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$1.class
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /Users/gballardin/coursera_scala_workspace/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$2.class
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /Users/gballardin/coursera_scala_workspace/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$3.class
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /Users/gballardin/coursera_scala_workspace/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$dfSchema$1.class
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /Users/gballardin/coursera_scala_workspace/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$row$1.class
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /Users/gballardin/coursera_scala_workspace/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$.class
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /Users/gballardin/coursera_scala_workspace/timeusage/target/scala-2.11/classes/timeusage/TimeUsage.class
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /Users/gballardin/coursera_scala_workspace/timeusage/target/scala-2.11/classes/timeusage/TimeUsageRow$.class
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /Users/gballardin/coursera_scala_workspace/timeusage/target/scala-2.11/classes/timeusage/TimeUsageRow.class
+binary dependencies:
+5 items
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /Users/gballardin/.coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.1.0/spark-catalyst_2.11-2.1.0.jar
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /Users/gballardin/.coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.jar
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /Users/gballardin/.coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /Users/gballardin/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+9 items
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage$
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage$$anonfun$1
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage$$anonfun$2
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage$$anonfun$3
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage$$anonfun$dfSchema$1
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage$$anonfun$row$1
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsageRow
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsageRow$
+used names:
+112 items
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> &&
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> ++
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> ::
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> <init>
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> ==
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> AbstractFunction6
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> AnyRef
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Array
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> ClassTag
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> DataFrame
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Double
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> DoubleType
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> List
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> None
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Paths
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Predef
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Product
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Row
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> ScalaRunTime
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Serializable
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> SparkSession
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Statics
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> String
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> StringType
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> StructField
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> StructType
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> TimeUsage
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> TimeUsageRow
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Tuple2
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Unit
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> _1
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> _2
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> _toString
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> age
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> anyHash
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> apache
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> appName
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> apply
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> asInstanceOf
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> augmentString
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> builder
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> canBuildFrom
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> columnNames
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> columns
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> config
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> createDataFrame
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> data
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> dataFrame
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> dfSchema
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> doubleHash
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> drop
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> eq
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> fieldName
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> file
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> finalizeHash
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> first
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> fromSeq
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> fsPath
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> functions
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> get
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> getClass
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> getOrCreate
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> getResource
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> headerColumns
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> i
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> immutable
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> implicits
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> initDf
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> isInstanceOf
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> it
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> java
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> line
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> map
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> mapPartitionsWithIndex
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> materializeClassTag
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> mix
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> ne
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> nio
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> org
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> other
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> package
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> primaryNeeds
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> rdd
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> read
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> refArrayOps
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> resource
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> row
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> runtime
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> scala
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> schema
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> sex
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> show
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> spark
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> sparkContext
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> split
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> sql
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> textFile
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeUsageByLifePeriod
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> to
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> toArray
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> toDouble
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> toString
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> toURI
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> trim
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> typedProductIterator
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> types
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> unchecked
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> work
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> working
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> x
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> ||
+product stamps:
+9 items
+/Users/gballardin/coursera_scala_workspace/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$1.class -> lastModified(1506527536000)
+/Users/gballardin/coursera_scala_workspace/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$2.class -> lastModified(1506527536000)
+/Users/gballardin/coursera_scala_workspace/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$3.class -> lastModified(1506527536000)
+/Users/gballardin/coursera_scala_workspace/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$dfSchema$1.class -> lastModified(1506527536000)
+/Users/gballardin/coursera_scala_workspace/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$row$1.class -> lastModified(1506527536000)
+/Users/gballardin/coursera_scala_workspace/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$.class -> lastModified(1506527536000)
+/Users/gballardin/coursera_scala_workspace/timeusage/target/scala-2.11/classes/timeusage/TimeUsage.class -> lastModified(1506527536000)
+/Users/gballardin/coursera_scala_workspace/timeusage/target/scala-2.11/classes/timeusage/TimeUsageRow$.class -> lastModified(1506527536000)
+/Users/gballardin/coursera_scala_workspace/timeusage/target/scala-2.11/classes/timeusage/TimeUsageRow.class -> lastModified(1506527536000)
+source stamps:
+1 items
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> hash(dae49651ac7bd1ee3cc2bc233c4c3e3e85e5bd45)
+binary stamps:
+5 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1466589303000)
+/Users/gballardin/.coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.1.0/spark-catalyst_2.11-2.1.0.jar -> lastModified(1481872148000)
+/Users/gballardin/.coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.jar -> lastModified(1481871925000)
+/Users/gballardin/.coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar -> lastModified(1481872304000)
+/Users/gballardin/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar -> lastModified(1457105192000)
+class names:
+5 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/gballardin/.coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.1.0/spark-catalyst_2.11-2.1.0.jar -> org.apache.spark.sql.types.DoubleType$
+/Users/gballardin/.coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.jar -> org.apache.spark.SparkContext
+/Users/gballardin/.coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar -> org.apache.spark.sql.Dataset
+/Users/gballardin/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar -> scala.runtime.AbstractFunction6
+internal apis:
+1 items
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDiHbUdAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAL3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cCmUd/R0AAZub3RpZnlzcQB+AAwlVS6ndAAEcmVhZHNxAH4ADI6Bp6J0AAd3b3JraW5nc3EAfgAMHr2loHQABHdhaXRzcQB+AAyzoejfdAAOY29weSRkZWZhdWx0JDJzcQB+AAxghNBLdAANJGFzSW5zdGFuY2VPZnNxAH4ADAfq4zB0AA5jb3B5JGRlZmF1bHQkNXNxAH4ADJO92IR0AAxUaW1lVXNhZ2VSb3dzcQB+AAzjzwvKdAAMcHJvZHVjdEFyaXR5c3EAfgAMpRm+7XQABmVxdWFsc3NxAH4ADA+64I10AAlUaW1lVXNhZ2VzcQB+AAzPBWKMdAAMYXNJbnN0YW5jZU9mc3EAfgAMZbYy1XQADHN5bmNocm9uaXplZHNxAH4ADFbWEcx0AA0kaXNJbnN0YW5jZU9mc3EAfgAMIPa6/nQABmZzUGF0aHNxAH4ADB3Zf/x0AAhjYW5FcXVhbHNxAH4ADDfoIVh0AANyb3dzcQB+AAyQBswGdAAOY29weSRkZWZhdWx0JDRzcQB+AAzo1G0AdAAEbWFpbnNxAH4ADKfQVu50AA1wcm9kdWN0UHJlZml4c3EAfgAMOeBo3nQAA2FnZXNxAH4ADPuls8Z0AAR3b3Jrc3EAfgAMFYSa7nQACW5vdGlmeUFsbHNxAH4ADPQljE10ABV0aW1lVXNhZ2VCeUxpZmVQZXJpb2RzcQB+AAx9it7tdAADc2V4c3EAfgAMqyl+rXQADGlzSW5zdGFuY2VPZnNxAH4ADO4ca9R0AAY8aW5pdD5zcQB+AAyA/0NfdAAFc3BhcmtzcQB+AAzlnyuUdAACPT1zcQB+AAw65YLadAAFY2xvbmVzcQB+AAxwJX3adAAIZGZTY2hlbWFzcQB+AAyZylxudAAOY29weSRkZWZhdWx0JDNzcQB+AAw8PmcddAAEY29weXNxAH4ADIk06910AAh0b1N0cmluZ3NxAH4ADIWCzrh0AAxwcmltYXJ5TmVlZHNzcQB+AAyhfpX8dAACIT1zcQB+AAyXrZYTdAAIZ2V0Q2xhc3NzcQB+AAwufINUdAAOY29weSRkZWZhdWx0JDFzcQB+AAzT3BnsdAAOY29weSRkZWZhdWx0JDZzcQB+AAz1wZzXdAACbmVzcQB+AAybwt8SdAACZXFzcQB+AAxLHOcJdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMkLDSmHQABW90aGVyc3EAfgAM07R1SnQAAiMjc3EAfgAMy4H1LHQACGZpbmFsaXplc3EAfgAMXBN6anQADnByb2R1Y3RFbGVtZW50c3EAfgAMZGHy6nQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AdXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAE3RpbWV1c2FnZS5UaW1lVXNhZ2V1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AI0Bc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AHVMAAlpbmhlcml0ZWRxAH4AdUwAB3BhcmVudHNxAH4AdXhxAH4AlHNxAH4AjQF1cQB+AHAAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AHZxAH4Af3VxAH4AgAAAAABzcQB+AIIAcQB+ADN1cQB+AIUAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ak3QABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AJNzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AK91cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgCceHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgCIdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgCjWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgCTc3EAfgCidAAFQXJyYXlxAH4AqHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgCidAAGU3RyaW5nc3EAfgCmc3EAfgCpdXEAfgCsAAAAA3NxAH4ArnQABGphdmFzcQB+AK50AARsYW5ncQB+ALNwc3EAfgCNAXVxAH4AcAAAAABwc3EAfgCNAXVxAH4AxwAAAAJzcQB+AKJ0AAZPYmplY3RxAH4Ay3NxAH4AonQAA0FueXEAfgCocHBzcQB+AHJxAH4Af3VxAH4AgAAAAABzcQB+AIIAdAAWdGltZXVzYWdlLlRpbWVVc2FnZVJvd3VxAH4AhQAAAAB+cQB+AId0AAhDbGFzc0RlZnVxAH4AiwAAAABzcQB+AI0BcQB+AJVwc3EAfgCNAXNxAH4Al3NxAH4AjQF1cQB+AHAAAAAAcHNxAH4AjQF1cQB+AHAAAAAAcHNxAH4AjQF1cQB+AMcAAAAGc3EAfgCidAAMU2VyaWFsaXphYmxlc3EAfgCmc3EAfgCpdXEAfgCsAAAAAnNxAH4ArnEAfgCxcQB+ALNzcQB+AKJxAH4A7HNxAH4ApnNxAH4AqXVxAH4ArAAAAANzcQB+AK5xAH4Az3NxAH4ArnQAAmlvcQB+ALNzcQB+AKJ0AAdQcm9kdWN0cQB+AO1zcQB+AKJ0AAZFcXVhbHNxAH4A7XNxAH4AonEAfgDXc3EAfgCmc3EAfgCpdXEAfgCsAAAAA3NxAH4ArnEAfgDPc3EAfgCucQB+ANFxAH4As3NxAH4AonEAfgDZcQB+AO1wcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQACXRpbWV1c2FnZXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXsQJ0ux1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABOL1VzZXJzL2diYWxsYXJkaW4vY291cnNlcmFfc2NhbGFfd29ya3NwYWNlL3RpbWV1c2FnZS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU2uSWUax70e48wrwjPEw+PoXlvUU=
+external apis:
+0 items
+source infos:
+1 items
+/Users/gballardin/coursera_scala_workspace/timeusage/src/main/scala/timeusage/TimeUsage.scala -> 
+AAAAAAAAAAA=
+compilations:
+7 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXrpCmHN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATi9Vc2Vycy9nYmFsbGFyZGluL2NvdXJzZXJhX3NjYWxhX3dvcmtzcGFjZS90aW1ldXNhZ2UvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXrpDxx91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATi9Vc2Vycy9nYmFsbGFyZGluL2NvdXJzZXJhX3NjYWxhX3dvcmtzcGFjZS90aW1ldXNhZ2UvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXrpR6/V1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATi9Vc2Vycy9nYmFsbGFyZGluL2NvdXJzZXJhX3NjYWxhX3dvcmtzcGFjZS90aW1ldXNhZ2UvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXrpS4AB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATi9Vc2Vycy9nYmFsbGFyZGluL2NvdXJzZXJhX3NjYWxhX3dvcmtzcGFjZS90aW1ldXNhZ2UvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXsP0ZVh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATi9Vc2Vycy9nYmFsbGFyZGluL2NvdXJzZXJhX3NjYWxhX3dvcmtzcGFjZS90aW1ldXNhZ2UvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+5 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXsQGart1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATi9Vc2Vycy9nYmFsbGFyZGluL2NvdXJzZXJhX3NjYWxhX3dvcmtzcGFjZS90aW1ldXNhZ2UvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+6 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXsQJ0ux1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATi9Vc2Vycy9nYmFsbGFyZGluL2NvdXJzZXJhX3NjYWxhX3dvcmtzcGFjZS90aW1ldXNhZ2UvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
