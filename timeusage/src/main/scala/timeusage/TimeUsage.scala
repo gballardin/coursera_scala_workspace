@@ -91,7 +91,7 @@ object TimeUsage {
     *    “t10”, “t12”, “t13”, “t14”, “t15”, “t16” and “t18” (those which are not part of the previous groups only).
     */
   def classifiedColumns(columnNames: List[String]): (List[Column], List[Column], List[Column]) = {
-    val regexFirst = "t01.*|t03.*|t11.*|t1801.*|t1803".r
+    val regexFirst = "t01.*|t03.*|t11.*|t1801.*|t1803.*".r
     val firstList = columnNames filter (x => regexFirst.pattern.matcher(x).matches)
     val regexSecond = "t05.*|t1805.*".r
     val secondList = columnNames filter (x => regexSecond.pattern.matcher(x).matches)
@@ -128,20 +128,23 @@ object TimeUsage {
     * Finally, the resulting DataFrame should exclude people that are not employable (ie telfs = 5).
     *
     * Note that the initial DataFrame contains time in ''minutes''. You have to convert it into ''hours''.
+    */
 
   def timeUsageSummary(
-    primaryNeedsColumns: List[Column],
-    workColumns: List[Column],
-    otherColumns: List[Column],
-    df: DataFrame
-  ): DataFrame = {
+                        primaryNeedsColumns: List[Column],
+                        workColumns: List[Column],
+                        otherColumns: List[Column],
+                        df: DataFrame
+                      ): DataFrame = {
     // Transform the data from the initial dataset into data that make
     // more sense for our use case
     // Hint: you can use the `when` and `otherwise` Spark functions
     // Hint: don’t forget to give your columns the expected name with the `as` method
-    val workingStatusProjection: Column = ???
-    val sexProjection: Column = ???
-    val ageProjection: Column = ???
+    val workingStatusProjection: Column = df.select(when($"telfs" => 1 and $"telfs" < 3, "working").otherwise("not working")).as("workingStatusProjection")
+    val sexProjection: Column = df.select(when($"tesex" === 1, "mae").otherwise("female")).as("sexProjection")
+    val ageProjection: Column = df.select(when($"teage" => 15 and $"teage" <= 22, "young")
+    .when($"teage" => 23 and $"teage" <= 55, "adult")
+    .otherwise("elder")).as("ageProjection")
 
     // Create columns that sum columns of the initial dataset
     // Hint: you want to create a complex column expression that sums other columns
@@ -154,7 +157,7 @@ object TimeUsage {
       .select(workingStatusProjection, sexProjection, ageProjection, primaryNeedsProjection, workProjection, otherProjection)
       .where($"telfs" <= 4) // Discard people who are not in labor force
   }
-    */
+
 
   /** @return the average daily time (in hours) spent in primary needs, working or leisure, grouped by the different
     *         ages of life (young, active or elder), sex and working status.
@@ -233,10 +236,10 @@ object TimeUsage {
   * @param other Number of daily hours spent on other activities
   */
 case class TimeUsageRow(
-  working: String,
-  sex: String,
-  age: String,
-  primaryNeeds: Double,
-  work: Double,
-  other: Double
-)
+                         working: String,
+                         sex: String,
+                         age: String,
+                         primaryNeeds: Double,
+                         work: Double,
+                         other: Double
+                       )
