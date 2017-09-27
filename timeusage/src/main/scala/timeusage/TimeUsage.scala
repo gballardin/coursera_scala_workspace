@@ -91,10 +91,12 @@ object TimeUsage {
     *    “t10”, “t12”, “t13”, “t14”, “t15”, “t16” and “t18” (those which are not part of the previous groups only).
     */
   def classifiedColumns(columnNames: List[String]): (List[Column], List[Column], List[Column]) = {
-    val regexFirst = "".r
+    val regexFirst = "t01.*|t03.*|t11.*|t1801.*|t1803".r
+    val firstList = columnNames filter (x => regexFirst.pattern.matcher(x).matches)
     val regexSecond = "t05.*|t1805.*".r
-    columnNames filter (x => regexSecond.pattern.matcher(x).matches)
-    columnNames.drop(1)
+    val secondList = columnNames filter (x => regexSecond.pattern.matcher(x).matches)
+    val thirdList = columnNames.drop(1).filterNot(firstList.toSet).filterNot(secondList.toSet)
+    (firstList, secondList, thirdList)
   }
 
   /** @return a projection of the initial DataFrame such that all columns containing hours spent on primary needs

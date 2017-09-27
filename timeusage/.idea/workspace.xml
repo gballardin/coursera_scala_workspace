@@ -23,8 +23,8 @@
       <file leaf-file-name="TimeUsage.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/timeusage/TimeUsage.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="96" column="4" lean-forward="false" selection-start-line="94" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
+            <state relative-caret-position="607">
+              <caret line="98" column="38" lean-forward="true" selection-start-line="93" selection-start-column="4" selection-end-line="98" selection-end-column="38" />
               <folding>
                 <element signature="e#154#194#0" expanded="true" />
               </folding>
@@ -135,14 +135,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="timeusage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -344,8 +336,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/scala/timeusage/TimeUsage.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="96" column="4" lean-forward="false" selection-start-line="94" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
+        <state relative-caret-position="607">
+          <caret line="98" column="38" lean-forward="true" selection-start-line="93" selection-start-column="4" selection-end-line="98" selection-end-column="38" />
+          <folding>
+            <element signature="e#154#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/timeusage/TimeUsage.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="98" column="38" lean-forward="true" selection-start-line="93" selection-start-column="4" selection-end-line="98" selection-end-column="38" />
           <folding>
             <element signature="e#154#194#0" expanded="true" />
           </folding>
