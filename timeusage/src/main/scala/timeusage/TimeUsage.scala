@@ -12,6 +12,7 @@ object TimeUsage {
   import org.apache.spark.sql.functions._
   import org.apache.spark.sql.types.{StructType, StructField, StringType, DoubleType}
   import org.apache.spark.sql.Row
+  import org.apache.spark.sql.Column
 
 
   val spark: SparkSession =
@@ -31,7 +32,7 @@ object TimeUsage {
 
   def timeUsageByLifePeriod(): Unit = {
     val (columns, initDf) = read("/timeusage/atussum.csv")
-    //val (primaryNeedsColumns, workColumns, otherColumns) = classifiedColumns(columns)
+    val (primaryNeedsColumns, workColumns, otherColumns) = classifiedColumns(columns)
     //val summaryDf = timeUsageSummary(primaryNeedsColumns, workColumns, otherColumns, initDf)
     //val finalDf = timeUsageGrouped(summaryDf)
     initDf.show()
@@ -92,10 +93,10 @@ object TimeUsage {
     */
   def classifiedColumns(columnNames: List[String]): (List[Column], List[Column], List[Column]) = {
     val regexFirst = "t01.*|t03.*|t11.*|t1801.*|t1803.*".r
-    val firstList = columnNames filter (x => regexFirst.pattern.matcher(x).matches)
+    val firstList = columnNames.filter(x => regexFirst.pattern.matcher(x).matches).map(col(_))
     val regexSecond = "t05.*|t1805.*".r
-    val secondList = columnNames filter (x => regexSecond.pattern.matcher(x).matches)
-    val thirdList = columnNames.drop(1).filterNot(firstList.toSet).filterNot(secondList.toSet)
+    val secondList = columnNames.filter(x => regexSecond.pattern.matcher(x).matches).map(col(_))
+    val thirdList = columnNames.drop(1).filterNot(firstList.toSet).filterNot(secondList.toSet).map(col(_))
     (firstList, secondList, thirdList)
   }
 
@@ -140,19 +141,20 @@ object TimeUsage {
     // more sense for our use case
     // Hint: you can use the `when` and `otherwise` Spark functions
     // Hint: don’t forget to give your columns the expected name with the `as` method
-    val workingStatusProjection: Column = df.select(when($"telfs" => 1 and $"telfs" < 3, "working").otherwise("not working")).as("workingStatusProjection")
-    val sexProjection: Column = df.select(when($"tesex" === 1, "mae").otherwise("female")).as("sexProjection")
-    val ageProjection: Column = df.select(when($"teage" => 15 and $"teage" <= 22, "young")
-    .when($"teage" => 23 and $"teage" <= 55, "adult")
-    .otherwise("elder")).as("ageProjection")
+    val workingStatusProjection: Column = df.select(when(expr("telfs >= 1") and expr("telfs < 3"), "working").otherwise("not working").as("workingStatusProjection"))
+    val sexProjection: Column = df.select(when(expr("tesex = 1"), "male").otherwise("female").as("sexProjection"))
+    val ageProjection: Column = df.select(when(expr("teage >= 15") and expr("telfs <= 22"), "young")
+      .when(expr("teage >= 23") and expr("telfs <= 55"), "active")
+      .otherwise("elder")
+      .as("ageProjection"))
 
     // Create columns that sum columns of the initial dataset
     // Hint: you want to create a complex column expression that sums other columns
     //       by using the `+` operator between them
     // Hint: don’t forget to convert the value to hours
-    val primaryNeedsProjection: Column = ???
-    val workProjection: Column = ???
-    val otherProjection: Column = ???
+    val primaryNeedsProjection: Column = expr(primaryNeedsColumns.mkString(" + "))
+    val workProjection: Column = expr(workColumns.mkString(" + "))
+    val otherProjection: Column = expr(otherColumns.mkString(" + "))
     df
       .select(workingStatusProjection, sexProjection, ageProjection, primaryNeedsProjection, workProjection, otherProjection)
       .where($"telfs" <= 4) // Discard people who are not in labor force
